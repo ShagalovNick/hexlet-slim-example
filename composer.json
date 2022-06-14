@@ -1,0 +1,17 @@
+{
+    "name": "nikolay/hexlet-slim-example",
+    "description": "hexlet-example-project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nikolay\\HexletSlimExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ShagalovNick",
+            "email": "sekunda-61@yandex.ru"
+        }
+    ],
+    "require": {}
+}
