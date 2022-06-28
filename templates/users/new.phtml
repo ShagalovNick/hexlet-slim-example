@@ -1,0 +1,15 @@
+<form action="<?= $users ?>" method="post">
+<div>
+<label> Имя
+<input type="text" required name ="user[name]" value="<?= htmlspecialchars($user['name'] ?? ''); ?>">
+</label>
+</div>
+<br>
+<?php if (isset($errors)): ?>
+            <div><?= $errors ?></div>
+        <?php endif ?>
+<label> Email
+<input type="email" required name ="user[email]" value="<?= htmlspecialchars($user['email'] ?? ''); ?>">
+</label>
+<input type="submit" value="Sign Up">
+</form>

@@ -4,7 +4,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Nikolay\\HexletSlimExample\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,12 @@
             "email": "sekunda-61@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "slim/http": "^1.2",
+        "slim/php-view": "^3.1",
+        "php-di/php-di": "^6.4",
+        "slim/flash": "^0.4.0"
+    }
 }

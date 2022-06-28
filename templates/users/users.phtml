@@ -1,0 +1,11 @@
+<form action="" method="get">
+<input type="search" name="usersSearch" value="<?= htmlspecialchars($usersSearch) ?>" />
+<input type="submit" value="Search" />
+</form>
+<ul>
+<?php
+foreach ($users as $key => $value) : ?>
+<li>Id: <?= $key ?> || nickname: <?= $value['name'] ?> || email: <?= $value['email'] ?></li>
+<?php endforeach ?>
+</ul>
+
